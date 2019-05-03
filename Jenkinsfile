@@ -4,6 +4,7 @@ pipeline {
         stage('clean') {
             steps {
                 sh "mvn clean"
+                sh "succesfully cleaned"
             }
         }
         stage('test') {
